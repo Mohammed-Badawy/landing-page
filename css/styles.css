@@ -11,7 +11,8 @@ body{
 /* shared styling */
 
 .heading, 
-.hero-container{
+.hero-container,
+.staff-container{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
@@ -105,4 +106,47 @@ button:hover{
 
 .img-container img {
     width: 100%;
+}
+
+/* staff section */
+
+.staff-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.subtitle{
+    color: #1f2937;
+    font-size: 2.3rem;
+    padding-top: 2%;
+}
+
+.staff-imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.staff-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    max-width: 250px;
+}
+
+.staff-img img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px #aca8a8;
+}
+
+figure figcaption {
+    color: #aca8a8;
+    width: 70%;
+    text-align: center;
 }
