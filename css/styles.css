@@ -12,7 +12,8 @@ body{
 
 .heading, 
 .hero-container,
-.staff-container{
+.staff-container,
+.quote-container{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
@@ -149,4 +150,29 @@ figure figcaption {
     color: #aca8a8;
     width: 70%;
     text-align: center;
+}
+
+/* Quote section */
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+blockquote{
+    color: #1f2937;
+    font-size: 2.3rem;
+    font-weight:300;
+    font-style: italic;
+    padding-top: 2%;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1f2937;
 }
