@@ -14,7 +14,8 @@ body{
 .hero-container,
 .staff-container,
 .quote-container,
-.sign-up-section{
+.sign-up-section,
+.footer{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
@@ -211,4 +212,12 @@ blockquote{
 }
 .special-btn{
     border: 1px solid #f9faf8;
+}
+
+/* footer */
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
 }
